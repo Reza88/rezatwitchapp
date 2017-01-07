@@ -1,3 +1,4 @@
+var app = require('app'); 
 var getTopGames = new XMLHttpRequest(); 
 getTopGames.onload = function(){
     response = JSON.parse(getTopGames.responseText);
@@ -9,7 +10,7 @@ getTopGames.onload = function(){
 
 }
 
-getTopGames.open('GET','https://localhost:8080/topgames',true); 
+getTopGames.open('GET','https://sheltered-woodland-40647.herokuapp.com/topgames',true); 
 getTopGames.send(); 
 
 
