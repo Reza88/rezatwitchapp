@@ -9,7 +9,7 @@ getTopGames.onload = function(){
 
 }
 
-getTopGames.open('GET','http://localhost:8080/topgames',true); 
+getTopGames.open('GET','https://localhost:8080/topgames',true); 
 getTopGames.send(); 
 
 
