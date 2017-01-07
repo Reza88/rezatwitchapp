@@ -1,5 +1,4 @@
 var getTopGames = new XMLHttpRequest(); 
-
 getTopGames.onload = function(){
     response = JSON.parse(getTopGames.responseText);
     listGames(response); 
@@ -131,6 +130,7 @@ function createTableData(property,element,parent){
 function sumOfTotalTwitchViewers(){
     var sumOfViewerResults = []; 
     var sumOfChannelResults = []; 
+    
     var gameObj={
         gameInfo:{
             name:[],
