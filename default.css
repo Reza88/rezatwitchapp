@@ -1,0 +1,93 @@
+#topleaders {
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgba(0,0,0,.2);
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 1px #000,
+    1px 1px 1px #000; 
+  border-radius: 5px;
+}
+
+body {
+  background: url('images/twitch_background.jpg') no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (min-width: 1300px) {
+  .container {
+    width: 1270px;
+  }
+}
+
+#topleaders p{
+    margin-bottom: 1px;
+    color:white;
+}
+
+.leader-title {
+  margin-bottom: 20px !important;
+}
+
+th {
+  padding: 8px;
+  font-size: 15px;
+}
+
+.h1 {
+  color: #fff;
+}
+
+.h2 {
+  color: #111;
+}
+
+.h3 {
+  color: #333;
+  margin: 10px 5px 5px 5px;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: transparent;
+  color: #fff;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 1px #000,
+    1px 1px 1px #000;  
+}
+
+
+#background {
+  padding-top: 30px;
+}
+
+.division {
+  background-color: rgba(255,255,255,.4);
+  border-radius: 5px;
+  padding: 1px 10px 0 10px;
+  color: #111;
+}
+.logo {
+  min-width: 30px;
+  margin-right: 5px;
+}
+td {
+  border-color: #666 !important;
+}
+
+
+td-stats {
+  border-color: #666 !important;
+  text-align:center; 
+}
+
+.img-fixed {
+  width: 150px !important;
+  max-height: 150px;
+}
