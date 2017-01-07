@@ -1,4 +1,3 @@
-var app = require('app'); 
 var getTopGames = new XMLHttpRequest(); 
 getTopGames.onload = function(){
     response = JSON.parse(getTopGames.responseText);
